@@ -1,0 +1,20 @@
+{
+  "name": "numbertopersian",
+  "version": "0.0.0",
+  "description": "for converting number to persian character",
+  "main": "src/numberToPersian.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack --mode=development"
+  },
+  "keywords": [
+    "number2persian"
+  ],
+  "author": "Mehrdad Dehghanzadeh",
+  "license": "MIT",
+  "devDependencies": {
+    "progress-bar-webpack-plugin": "^2.1.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0"
+  }
+}
