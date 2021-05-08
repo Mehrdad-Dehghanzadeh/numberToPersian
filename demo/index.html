@@ -3,9 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Index</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            height: 100%;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+
+        main {
+            text-align: center;
+        }
+
+        .input-wrapper {
+            margin-top: 150px;
+        }
+
+        label {
+            font-size: 12px;
+        }
+
+        #output {
+            color: #fa5858;
+            padding: 20px 100px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
 
+<main>
+    <div class="input-wrapper">
+        <label for="input">
+            Please Enter Number
+        </label>
+        <input type="number" id="input"  onchange="print()"/>
+    </div>
+
+    <p id="output"></p>
+</main>
+
 </body>
+
 <script src="../dist/numberToPersian.min.js"></script>
+<script>
+    function print() {
+        var number =  document.querySelector('#input').value
+        document.querySelector("#output").innerHTML = numberToPersian(number)
+    }
+</script>
 </html>

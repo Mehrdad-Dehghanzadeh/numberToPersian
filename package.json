@@ -1,10 +1,11 @@
 {
   "name": "numbertopersian",
   "version": "0.0.0",
-  "description": "for converting number to persian character",
+  "description": "for converting number to persian letters",
   "browser": "dist/numberToPersian.js",
   "module": "src/numberToPersian.js",
   "private": false,
+  "homepage": "https://github.com/Mehrdad-Dehghazadeh/numberToPersian",
   "repository": {
     "type": "git",
     "url": "https://github.com/Mehrdad-Dehghazadeh/numberToPersian.git"
@@ -14,7 +15,7 @@
     "number2persian",
     "numberToPersian",
     "number to persian",
-    "convering number persain character"
+    "convering number persain letters"
   ],
   "author": {
     "name": "Mehrdad Dehghanzadeh",
