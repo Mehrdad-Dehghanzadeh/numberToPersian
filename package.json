@@ -1,9 +1,8 @@
 {
   "name": "number-to-persian",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "for converting number to persian letters",
-  "browser": "dist/numberToPersian.js",
-  "module": "src/numberToPersian.js",
+  "main": "src/numberToPersian.js",
   "private": false,
   "homepage": "https://github.com/Mehrdad-Dehghazadeh/numberToPersian",
   "repository": {

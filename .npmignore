@@ -281,7 +281,6 @@ StyleCopReport.xml
 *.tmp
 *.tmp_proj
 *_wpftmp.csproj
-*.log
 *.vspscc
 *.vssscc
 .builds
@@ -556,4 +555,4 @@ CVS
 npm-debug.log
 .vscode
 .idea
-.demo
+.demo/

@@ -17,7 +17,7 @@ Number To Persian provides the conversion of numbers into Persian letters easily
 ## Usage 
 
 ```
-import numberToPersian from 'numberToPersian';
+import numberToPersian from 'number-to-persian';
 console.log(numberToPersian(123));
 ```
 
