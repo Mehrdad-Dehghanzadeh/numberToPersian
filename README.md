@@ -9,7 +9,7 @@ Number To Persian provides the conversion of numbers into Persian letters easily
 ### NPM
 
 ```
-  npm i numberToPersian
+  npm install number-to-persian
 ```
 
 
