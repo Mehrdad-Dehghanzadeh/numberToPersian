@@ -1,6 +1,6 @@
 {
-  "name": "numbertopersian",
-  "version": "0.0.0",
+  "name": "numberToPersian",
+  "version": "1.0.0",
   "description": "for converting number to persian letters",
   "browser": "dist/numberToPersian.js",
   "module": "src/numberToPersian.js",
