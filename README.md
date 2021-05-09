@@ -52,7 +52,7 @@ console.log(numberToPersian(123)); //output: یکصد و بیست و سه
 ### External Library ###	
 
 ```
-<script src="cnd/"></script>
+<script src="https://cdn.jsdelivr.net/npm/number-to-persian@1.0.2/dist/numberToPersian.min.js"></script>
 <script>
 	console.log(numberToPersian(123)); //output: یکصد و بیست و سه
 </script>
@@ -60,7 +60,9 @@ console.log(numberToPersian(123)); //output: یکصد و بیست و سه
 
 ​	
 
+## CDN 
 
+https://cdn.jsdelivr.net/npm/number-to-persian@1.0.2/dist/numberToPersian.min.js
 
 ## Example
 
