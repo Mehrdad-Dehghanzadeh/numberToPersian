@@ -67,7 +67,7 @@ console.log(numberToPersian(123)); //output: یکصد و بیست و سه
 you can call `numberToPersian(num)` or use `.numberToPersian()` prototype
 
 ```
-//Global function
+// Function
 numberToPersian(123); //output: یکصد و بیست و سه
 
 //String Prototype
@@ -90,7 +90,7 @@ numberToPersian(123); //output: یکصد و بیست و سه
 
 
 
-## Installing
+
 
 ------
 
@@ -101,5 +101,4 @@ numberToPersian(123); //output: یکصد و بیست و سه
 توانایی پردازش اعداد تا 66 رقم عدد صحیح و 11 رقم اعشار | دسیلیارد
 
 #### برای  اعداد بیشتر از 14 رقم  باید  از نوع داده استرینگ استفاده کنید.
-
 

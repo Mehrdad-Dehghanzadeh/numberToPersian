@@ -37,7 +37,7 @@ const convertDecimalPart = (decimalPart) => {
     if (decimalPart.length > 11) {
         decimalPart = decimalPart.substr(0, 11);
     }
-    return ' ممیز ' + NumberToPersian(decimalPart) + ' ' + decimalSuffixes[decimalPart.length];
+    return ' ممیز ' + numberToPersian(decimalPart) + ' ' + decimalSuffixes[decimalPart.length];
 };
 
 /**
@@ -46,7 +46,7 @@ const convertDecimalPart = (decimalPart) => {
  * @returns {string}
  * @constructor
  */
-const NumberToPersian = (input) => {
+const numberToPersian = (input) => {
     // Clear Non digits
     input = input.toString().replace(/[^0-9.-]/g, '');
     let isNegative = false;
@@ -100,20 +100,20 @@ const NumberToPersian = (input) => {
 
 //@deprecate
 String.prototype.toPersianLetter = function () {
-    return NumberToPersian(this);
+    return numberToPersian(this);
 };
 
 //@deprecate
 Number.prototype.toPersianLetter = function () {
-    return NumberToPersian(parseFloat(this).toString());
+    return numberToPersian(parseFloat(this).toString());
 };
 
-String.prototype.NumberToPersian = function () {
-    return NumberToPersian(this);
+String.prototype.numberToPersian = function () {
+    return numberToPersian(this);
 };
 
-Number.prototype.NumberToPersian = function () {
-    return NumberToPersian(parseFloat(this).toString());
+Number.prototype.numberToPersian = function () {
+    return numberToPersian(parseFloat(this).toString());
 };
 
-module.exports = NumberToPersian
+module.exports = numberToPersian
