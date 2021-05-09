@@ -71,19 +71,19 @@ you can call `numberToPersian(num)` or use `.numberToPersian()` prototype
 numberToPersian(123); //output: یکصد و بیست و سه
 
 //String Prototype
-"123".num2persian(); //output: یکصد و بیست و سه
+"123".numberToPersian(); //output: یکصد و بیست و سه
 
 //Non-Digits
-"1,23".num2persian(); //output: یکصد و بیست و سه
+"1,23".numberToPersian(); //output: یکصد و بیست و سه
 
 //Number Prototype
-(2000).num2persian(); //output: دوهزار
+(2000).numberToPersian(); //output: دوهزار
 
 //Float
-(2000.3333).num2persian(); //output: دو هزار ممیز سه هزار و سیصد و سی و سه ده هزارم
+(2000.3333).numberToPersian(); //output: دو هزار ممیز سه هزار و سیصد و سی و سه ده هزارم
 
 //Negative numbers
-(-123).num2persian(); //output: منفی یکصد و بیست و سه
+(-123).numberToPersian(); //output: منفی یکصد و بیست و سه
 ```
 
 
